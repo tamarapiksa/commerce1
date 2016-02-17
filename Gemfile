@@ -14,6 +14,8 @@ gem 'font-awesome-sass', '4.2.0'
 
 gem 'devise', '3.4.1'
 
+gem 'stripe', '1.6.1'
+
 #Use postgresql as the database for production
 group :production do
   gem 'pg'
@@ -59,6 +61,8 @@ group :development, :test do
   gem 'devise', '3.4.1'
 
   gem 'stripe', '1.6.1'
+
+  gem 'stripe_event'
 
   gem 'figaro', '1.0.0'
 
