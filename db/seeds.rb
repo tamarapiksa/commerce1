@@ -8,5 +8,6 @@
 
 
 
-User.create(plan_id: 1)
 Profile.create(first_name: "Jessa", last_name: "Patrick")
+Plan.create(id: 1, name: "basic", price: 0, created_at: "2016-02-09 01:11:38", updated_at: "2016-02-09 01:11:39")
+Plan.create(id: 2, name: "pro", price: 10, created_at: "2016-02-09 01:11:48", updated_at: "2016-02-09 01:11:59")
