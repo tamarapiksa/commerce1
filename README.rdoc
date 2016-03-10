@@ -1,3 +1,4 @@
 E-commerce Application
 
-Subscription based selling platform using Ruby on Rails.
+Subscription based selling platform using Ruby on Rails and Stripe.
+

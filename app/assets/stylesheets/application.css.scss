@@ -17,4 +17,130 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
- 
+body {
+  background-image: url('/images/sharks1.jpg');
+}
+
+.jumbotron {
+  background: transparent;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  padding-top: 0;
+}
+
+.well {
+background:rgba(0,0,0,0.8);
+border: white solid 2px;
+}
+
+.jumbotron h1 {
+  color: white;
+  margin-left: 20px;
+  font-size: 120px;
+}
+
+.jumbotron h3 {
+  color: white;
+  margin-left: 145px;
+  background-color: gray;
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+h2 {
+  color: white;
+}
+
+h4 {
+  color: #555;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: darkgray;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#basic_form {
+  color: white;
+}
+
+#new_user {
+  color: white;
+}
+
+#new_contact {
+  color: white;
+}
+
+.basic {
+  display: inline;
+  background: darkgray;
+  border: darkgray solid 2px;
+  margin-left: 545px;
+  font-size: 15px;
+
+}
+.basic.btn:hover,
+.basic.btn:active {
+  background-color: #9b9b9b;
+  border: #8f8f8f solid 2px;
+}
+
+.pro {
+  display: inline;
+  background: #555;
+  border: #555 solid 2px;
+  font-size: 15px;
+}
+
+.login {
+  background: #555;
+  border: #555 solid 2px;
+}
+
+.btn:hover, 
+.btn:active {
+  background-color: #484848;
+  border: #3c3c3c solid 2px;
+}
+
+.navbar {
+  background:rgba(0,0,0,0.5); 
+}
+
+.well.about {
+  background: #555;
+  background:rgba(0,0,0,0.8); 
+}
+
+.alert {
+  display: inherit;
+
+}
+
+form {
+  color: white;
+}
+
+.btn {
+  background-color: #555;
+  border: #555 solid 2px;
+  color: white;
+}
+
+.btn:hover,
+.btn:active {
+  border: #3c3c3c solid 2px;
+  background-color: #484848;
+}
+
+.profile {
+  color: white;
+}
